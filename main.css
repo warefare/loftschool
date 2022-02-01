@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background: #001821;
+    color: #fff;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale"
+}
+a {
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.header {
+  height: 120px;
+  position: relative;  
+  margin-bottom: 120px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1050px;
+}
+
+.header__container .logo {
+display: block;
+position: absolute;
+top: 29px;
+left: 0px;
+}
+
+.header__container .menu {
+    position: absolute;
+    top: 42px;
+    left: 250px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header__container .contacts {
+    position: absolute;
+    top: 27px;
+    right: 0px;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+
+}
+
+.contacts__worktime {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.hello__text-section {
+    width: 515px;
+}
+
+.hello__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 18px;
+}
+
+.hello__text {
+    font-size: 18px;
+    width: 196px;
+    margin-bottom: 33px;
+}
+
+.button {
+    background: #fff;
+    color: #F5170E;
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 18px 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #F5170E;
+    color: #fff;
+}
+
+
+
+.footer__container.logo {
+    display: block;
+    position: absolute;
+    bottom: 65px;
+    left: 0px;
+    }
+
+    .footer__container.menu {
+        position: absolute;
+        bottom: 68px;
+        left: 250px;
+    }
