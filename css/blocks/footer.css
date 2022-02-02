@@ -1,0 +1,28 @@
+.footer {
+    height: 120px;
+}
+
+/* .about {
+    margin-bottom: 170px;
+} */
+
+.footer__container .logo {
+    bottom: 65px;
+    left: 0px;
+}
+
+.footer__container .menu {
+    bottom: 68px;
+    left: 250px;
+}
+
+.footer__container .contacts {
+    bottom: 58px;
+    right: 0px;
+}
+
+.footer__container .social {
+    position: absolute;
+    bottom: 61px;
+    left: 550px;
+}

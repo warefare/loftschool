@@ -1,0 +1,28 @@
+    .header,
+    .maincontent {
+        position: relative;
+        z-index: 2;
+    }
+
+    .header {
+        height: 120px;
+        margin-bottom: 120px;
+    }
+
+    .header__container .logo {
+        top: 29px;
+        left: 0px;
+    }
+
+    .header__container .menu {
+        top: 42px;
+        left: 300px;
+    }
+
+    .header__container .contacts {
+        position: absolute;
+        top: 27px;
+        right: 0px;
+        font-style: normal;
+        text-align: right;
+    }
