@@ -2,21 +2,4 @@
 @import url(./blocks/header.css);
 @import url(./blocks/hello.css);
 @import url(./blocks/offers.css);
-
-
-.hello__text-section {
-    width: 515px;
-}
-
-.hello__title {
-    font-size: 72px;
-    font-weight: bold;
-    line-height: 1.1;
-    margin-bottom: 18px;
-}
-
-.hello__text {
-    font-size: 18px;
-    width: 196px;
-    margin-bottom: 33px;
-}
+@import url(./blocks/footer.css);

@@ -6,7 +6,7 @@
 
     .header {
         height: 120px;
-        margin-bottom: 120px;
+        margin-bottom: 81px;
     }
 
     .header__container .logo {
@@ -15,8 +15,8 @@
     }
 
     .header__container .menu {
-        top: 42px;
-        left: 300px;
+        top: 52px;
+        left: 320px;
     }
 
     .header__container .contacts {
