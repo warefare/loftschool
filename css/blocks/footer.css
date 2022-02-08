@@ -2,27 +2,27 @@
     height: 120px;
 }
 
-/* .about {
-    margin-bottom: 170px;
-} */
-
 .footer__container .logo {
     bottom: 65px;
     left: 0px;
 }
 
 .footer__container .menu {
-    bottom: 68px;
-    left: 300px;
+    bottom: 56px;
+    left: 321px;
 }
 
 .footer__container .contacts {
-    bottom: 58px;
-    right: 0px;
+    bottom: 50px;
+    right: 0;
 }
 
 .footer__container .social {
     position: absolute;
     bottom: 61px;
-    left: 550px;
+    left: 701px;
 }
+
+/* .footer__container {
+    border-top: 1px solid #;
+} */

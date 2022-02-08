@@ -75,6 +75,7 @@ h6 {
 .wrapper {
     overflow: hidden;
     min-height: 100%;
+    background: url(../../img/1.jpg) center top no-repeat, url(../../img/2.png) right -297px bottom 159px no-repeat;
 }
 
 .container {
@@ -127,10 +128,14 @@ h6 {
     
 }
 
+.contacts__text {
+    font-size: 11px;
+}
+
 .social__contact {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .button {
@@ -149,6 +154,8 @@ h6 {
     display: block;
     max-width: 168px;
     max-height: 55px;
+    position: absolute;
+    
 }
 
 .button--light {
@@ -158,6 +165,7 @@ h6 {
     padding: 16px 27px;
     margin-left: 3px;
     max-width: 135px;
+    position: absolute;
 }
 
 .button:hover {
@@ -173,7 +181,7 @@ h6 {
     font-size: 36px;
     line-height: 49px;
     color: #fff;
-    margin-bottom: 49px;
+    margin-bottom: 52px;
 }
 
 .title--fire {
@@ -194,6 +202,10 @@ h6 {
 }
 
 .title--dark {
-    color: #000;
+    color: #060606;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 41px;
 }
+
 

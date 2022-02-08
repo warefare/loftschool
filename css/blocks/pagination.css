@@ -1,0 +1,29 @@
+.pagination__display, .pagination__list, .pagination__item, .pagination__item--active, .pagination__prev, .pagination__next {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 147px;
+}
+
+.pagination__display {
+    margin-right: 24px;
+}
+
+.pagination__item--active .pagination__link {
+    background: #fff;
+    color: #F5170E;
+}
+
+.pagination__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
