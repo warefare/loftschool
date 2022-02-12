@@ -1,0 +1,24 @@
+.contacts {
+    position: absolute;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts__worktime {
+    font-size: 13px;
+    text-decoration: underline;
+    position: absolute;
+    top: 30px;
+    right: 3px;
+    
+}
+
+.contacts__text {
+    font-size: 11px;
+}

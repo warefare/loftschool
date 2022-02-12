@@ -1,8 +1,18 @@
-@import url(./blocks/base.css);
+@import url(./layout/normalize.css);
+@import url(./layout/addition.css);
+@import url(./layout/base.css);
+@import url(./layout/fonts.css);
+
 @import url(./blocks/header.css);
+@import url(./blocks/logo.css);
+@import url(./blocks/contacts.css);
+@import url(./blocks/nav.css);
+@import url(./blocks/buttons.css);
+@import url(./blocks/title.css);
 @import url(./blocks/hello.css);
 @import url(./blocks/offers.css);
-@import url(./blocks/footer.css);
 @import url(./blocks/news.css);
 @import url(./blocks/pagination.css);
 @import url(./blocks/about.css);
+@import url(./blocks/footer.css);
+@import url(./blocks/socials.css);

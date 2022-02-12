@@ -1,7 +1,7 @@
     .header,
     .maincontent {
         position: relative;
-        z-index: 2;
+        /* z-index: 2; */
     }
 
     .header {
@@ -16,7 +16,7 @@
 
     .header__container .menu {
         top: 52px;
-        left: 320px;
+        left: 296px;
     }
 
     .header__container .contacts {

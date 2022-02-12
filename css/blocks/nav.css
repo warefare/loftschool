@@ -1,0 +1,19 @@
+.menu {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}

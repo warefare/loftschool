@@ -1,0 +1,35 @@
+.button {
+    background: #F5170E;
+    color: #fff;
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 18px 40px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s all;
+    display: block;
+    max-width: 168px;
+    max-height: 55px;
+    position: absolute;
+    
+}
+
+.button--light {
+    background: #fff;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+    padding: 16px 27px;
+    margin-left: 3px;
+    max-width: 135px;
+    position: absolute;
+}
+
+.button:hover {
+    background: #F5170E;
+    color: #fff;
+    border: 1px solid #F5170E;
+}
