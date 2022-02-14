@@ -2,7 +2,7 @@
     margin-bottom: 122px;
 }
 
-.offers__item, .offers__feature, .offers__features, .offers__feature-img, .offers__feature-text {
+.offers__feature, .offers__features, .offers__feature-img, .offers__feature-text {
     display: inline-block;
 }
 
@@ -12,13 +12,19 @@
     line-height: 28px;
 }
 
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .offers__item{
-    margin-right: 22px;
-    width: 362px;
+    width: calc(100%/ 3 - 18px);
     min-height: 449px;
     background: #fff;
     overflow: hidden;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -31,6 +37,9 @@
     padding-top: 38px;
     padding-bottom: 28px;
     color: #000;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .offers__features {
@@ -72,4 +81,10 @@ top: 22px;
 
 .offers__img {
     border-radius: 5px 5px 0px 0px;
+}
+
+.offer__btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
 }

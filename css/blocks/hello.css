@@ -1,9 +1,17 @@
 .hello {
-    margin-bottom: 331px;
+    margin-bottom: 236px;
+
+}
+
+.hello__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 338px;
 }
 
 .hello__text-section {
-    width: 515px;
+    width: 45%;
 }
 
 .hello__title {

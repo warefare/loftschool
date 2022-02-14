@@ -1,12 +1,14 @@
 .menu {
-    position: absolute;
-    transform: translate(-50%, -50%);
+    margin-top: 3px;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
 }
 
 .menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 50px;
+margin-right: 54px;
 }
 
 .menu__item:last-child {

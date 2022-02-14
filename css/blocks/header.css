@@ -1,13 +1,37 @@
-    .header,
+.header {
+    margin-top: 29px;
+    margin-bottom: 125px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+/* .header__container--right {
+    justify-content: flex-end;
+} */
+
+
+
+/* .header,
     .maincontent {
         position: relative;
         /* z-index: 2; */
-    }
+/* }
 
-    .header {
-        height: 120px;
-        margin-bottom: 81px;
-    }
+
 
     .header__container .logo {
         top: 29px;
@@ -25,4 +49,4 @@
         right: 0px;
         font-style: normal;
         text-align: right;
-    }
+    } */
