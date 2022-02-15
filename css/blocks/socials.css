@@ -1,5 +1,10 @@
-.social__contact {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 6px;
+.social {
+    display: flex;
+    margin-right: 64px;
 }
+
+
+.social__contact {
+    margin-right: 10px;
+}
+

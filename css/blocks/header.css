@@ -1,52 +1,25 @@
 .header {
     margin-top: 29px;
     margin-bottom: 125px;
-}
-
-.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__left {
+.header__col {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-
-.header__right {
-    display: flex;
-    align-items: center;
-}
-
-/* .header__container--right {
+.header__col--right {
     justify-content: flex-end;
-} */
+    
+}
 
+.top-line {
+    min-height: 412px;
+    background: url(../../img/headline_1.png);
+    display: flex;
+    flex-direction: column;
 
-
-/* .header,
-    .maincontent {
-        position: relative;
-        /* z-index: 2; */
-/* }
-
-
-
-    .header__container .logo {
-        top: 29px;
-        left: 0px;
-    }
-
-    .header__container .menu {
-        top: 52px;
-        left: 296px;
-    }
-
-    .header__container .contacts {
-        position: absolute;
-        top: 27px;
-        right: 0px;
-        font-style: normal;
-        text-align: right;
-    } */
+}

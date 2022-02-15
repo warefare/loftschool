@@ -1,5 +1,4 @@
 .contacts {
-    /* margin-top: 10px; */
     display: flex;
     align-items: flex-end;
     flex-direction: column;
@@ -13,11 +12,12 @@
 }
 
 .contacts__worktime {
-    /* display: flex; */
     font-size: 13px;
     text-decoration: underline;
+    font-style: normal;
 }
 
 .contacts__text {
     font-size: 11px;
+    font-style: normal;
 }

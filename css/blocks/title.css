@@ -11,6 +11,8 @@
 .title--fire {
     position: relative;
     margin-left: 2px;
+    display: flex;
+    align-items: center;
 }
 
 .title--fire::after {
@@ -19,10 +21,6 @@
     margin-left: 10px;
     width: 21px;
     height: 28px;
-    position: absolute;
-    top: 54%;
-    left: 25%;
-    transform: translate(-50%, -50%);
 }
 
 .title--dark {

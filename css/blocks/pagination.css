@@ -1,16 +1,25 @@
-.pagination__display, .pagination__list, .pagination__item, .pagination__item--active, .pagination__prev, .pagination__next {
+/* .pagination__display, .pagination__list, .pagination__item, .pagination__item--active, .pagination__prev, .pagination__next {
     display: inline-block;
     vertical-align: middle;
 
-}
+} */
 
 .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     text-align: center;
     margin-bottom: 147px;
 }
 
 .pagination__display {
     margin-right: 24px;
+}
+
+.pagination__list {
+    display: flex;
+    align-items: center;
 }
 
 .pagination__item--active .pagination__link {

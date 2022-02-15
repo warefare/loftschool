@@ -1,5 +1,17 @@
 .footer {
     height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__col{
+    display: flex;
+    align-items: center;
+}
+
+.footer__col-right {
+    justify-content: flex-end;
 }
 
 .footer__container .logo {

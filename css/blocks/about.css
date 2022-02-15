@@ -1,12 +1,11 @@
 .about {
-    margin-bottom: 203px;
+    margin-bottom: 132px;
 }
 
 .about__img::before {
 content: "";
-display: inline-block;
-vertical-align: top;
-width: 490px;
+display: block;
+max-width: 490px;
 height: 505px;
 }
 
@@ -30,8 +29,7 @@ color: #060606;
 
 .about__background::before {
     content: "";
-    display: inline-block;
-    vertical-align: top;
-    width: 785px;
+    display: flex;
+    max-width: 785px;
     height: 455px;
 }
