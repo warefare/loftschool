@@ -9,12 +9,14 @@
     font-size: 26px;
     font-style: normal;
     display: flex;
+    line-height: 30px;
 }
 
 .contacts__worktime {
     font-size: 13px;
     text-decoration: underline;
     font-style: normal;
+    line-height: 13px;
 }
 
 .contacts__text {

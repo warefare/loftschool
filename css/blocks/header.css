@@ -1,6 +1,12 @@
 .header {
     margin-top: 29px;
     margin-bottom: 125px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,15 +17,8 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .header__col--right {
     justify-content: flex-end;
-    
 }
 
-.top-line {
-    min-height: 412px;
-    background: url(../../img/headline_1.png);
-    display: flex;
-    flex-direction: column;
-
-}

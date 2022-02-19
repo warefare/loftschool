@@ -1,4 +1,4 @@
-.title {
+.title, .service__title {
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -29,3 +29,15 @@
     line-height: 42px;
     margin-bottom: 41px;
 }
+
+.service__title {
+    margin-bottom: 0;
+    color: #000;
+    line-height:36px;
+}
+
+.services__title {
+    font-size: 72px;
+    line-height: 42px;
+    font-weight: bold;
+    }

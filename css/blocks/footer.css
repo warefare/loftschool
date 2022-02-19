@@ -35,6 +35,7 @@
     left: 701px;
 }
 
-/* .footer__container {
-    border-top: 1px solid #;
-} */
+.footer__services {
+    margin-top: auto;
+    min-height: 136px;
+}

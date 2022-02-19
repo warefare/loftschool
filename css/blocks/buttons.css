@@ -32,3 +32,13 @@
     color: #fff;
     border: 1px solid #F5170E;
 }
+
+.button--service {
+    background: #fff;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+    padding: 16px 27px;
+    margin-left: 3px;
+    max-width: 168px;
+    text-align: center;
+}
