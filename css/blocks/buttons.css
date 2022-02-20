@@ -21,6 +21,11 @@
 .button--light {
     background: #fff;
     color: #F5170E;
+}
+
+.button--light-little {
+    background: #fff;
+    color: #F5170E;
     border: 1px solid #F5170E;
     padding: 16px 27px;
     margin-left: 3px;
@@ -41,4 +46,16 @@
     margin-left: 3px;
     max-width: 168px;
     text-align: center;
+}
+
+.button--grey {
+    background: #2B2B2B;
+    color: #fff;
+    width: 168px;
+    height: 55px;
+}
+
+.button--grey:hover {
+    background:#8E8E8E;
+    border: #8E8E8E;
 }

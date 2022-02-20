@@ -1,0 +1,86 @@
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+
+.form__input:last-child {
+    margin-right: 0;
+}
+
+.form__input::placeholder {
+    color: #666666;
+}
+
+.form__input:focus {
+    outline: none;
+    border-color: #F5170E;
+}
+
+.form__imput--textarea {
+    height: 235px;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.form__controls-title {
+    width: 34%;
+    font-size: 18px;
+    color: #1A1B1E;
+    margin-right:45px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.controls__item {
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+
+.controls__elem {
+    cursor: pointer;
+
+}
+
+.controls__checkbox:checked~.controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__button {
+    margin-right: 17px;
+}
+
+.form__button:last-child {
+    margin-right: 0;
+}
+
+.inner-section--reviews {
+    margin-bottom: 44px;
+}

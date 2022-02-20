@@ -1,0 +1,43 @@
+.separator {
+    background: url(../../img/Separator.png) center center no-repeat;
+    background-size: cover;
+    /* min-height: 363px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+}
+
+
+
+/* .separator::after {
+    content: url(../../img/separator_peoples.png) center center no-repeat;
+    align-items: flex-end;
+    position: absolute;
+
+} */
+
+.separator__wrap {
+    width: 100%;
+}
+
+.separator__content {
+    display: flex;
+    align-items: center;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    max-width: 594px;
+}
+
+.separator__img {
+    margin-top: 22px;
+}
+
+.inner__title--reviews {
+    padding-top: 38px;
+}

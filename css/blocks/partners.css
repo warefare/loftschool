@@ -1,14 +1,18 @@
-.partners {
+.inner-section {
     background: #F4F5F5;
     color: #1A1B1E;
     padding: 29px 0 54px 0;
 }
 
-.partners__title {
+.inner__title {
     font-size: 48px;
     line-height: 56px;
     font-weight: bold;
     margin-bottom: 90px;
+}
+
+.inner__title--reviews {
+    margin-bottom: 60px;
 }
 
 .partners__list {

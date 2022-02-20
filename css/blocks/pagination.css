@@ -40,3 +40,13 @@
     background: #F5170E;
     color: #fff;
 }
+
+.pagination--reviews .pagination__item--active .pagination__link{
+    background: #F5170E;
+    color: #fff;
+}
+
+.pagination--reviews {
+    margin-bottom: 86px;
+    /* padding-top: 53px; */
+}
